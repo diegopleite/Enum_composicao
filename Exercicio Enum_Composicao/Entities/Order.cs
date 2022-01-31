@@ -31,5 +31,27 @@ namespace Exercicio_Enum_Composicao.Entities {
             }
             return total;
         }
+
+        public override string ToString() {
+            StringBuilder sb = new StringBuilder();
+            sb.Append("Order Summary: ");
+            sb.Append("Order Moment: " + Moment);
+            sb.Append("Order Status: " + Status);
+            sb.Append("Client: " + Client.Name);
+            sb.Append("Birth Date: " + Client.BirthDate.ToString("dd/MM/yyyy"));
+            sb.Append("Email: " + Client.Email);
+            foreach (OrderItem item in OrderItems) {
+                sb.Append(item.Product.Name);
+                sb.Append(", ");
+                sb.Append(item.Price);
+                sb.Append(", ");
+                sb.Append(item.Quantity);
+                sb.Append(", ");
+                sb.Append(item.SubTotal());                
+            }
+            sb.Append("Total Price: " + Total());
+            return sb.ToString();
+
+        }
     }
 }
