@@ -4,8 +4,8 @@ using System.Text;
 
 namespace Exercicio_Enum_Composicao.Entities {
     class OrderItem {
-        public int Quantity { get; private set; }
-        public double Price { get; private set; }
+        public int Quantity { get;  set; }
+        public double Price { get;  set; }
         public Product Product { get; private set; }
 
         public OrderItem(int quantity, double price, Product product) {
@@ -14,9 +14,8 @@ namespace Exercicio_Enum_Composicao.Entities {
             Product = product;
         }
 
-        public double subTotal() {
-            return Quantity * Price;
-          
+        public double SubTotal() {
+            return Quantity * Price;          
         }
 
         public override string ToString() {
