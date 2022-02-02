@@ -8,7 +8,7 @@ namespace Exercicio_Enum_Composicao.Entities {
         public DateTime Moment { get; set; }
         public OrderStatus Status { get; set; }
         public Client Client { get; set; }
-        public List<OrderItem> OrderItems { get; set; }
+        public List<OrderItem> OrderItems { get; set; } = new List<OrderItem>();
 
         public Order(DateTime moment, OrderStatus status, Client client) {
             Moment = moment;
@@ -33,21 +33,17 @@ namespace Exercicio_Enum_Composicao.Entities {
         }
 
         public override string ToString() {
-            StringBuilder sb = new StringBuilder();
-            sb.Append("Order Summary: ");
-            sb.Append("Order Moment: " + Moment);
-            sb.Append("Order Status: " + Status);
-            sb.Append("Client: " + Client.Name);
-            sb.Append("Birth Date: " + Client.BirthDate.ToString("dd/MM/yyyy"));
-            sb.Append("Email: " + Client.Email);
+            StringBuilder sb = new StringBuilder();           
+            sb.AppendLine("Order Moment: " + Moment);
+            sb.AppendLine("Order Status: " + Status);
+            sb.AppendLine("Client: " + Client.Name);
+            sb.AppendLine("Birth Date: " + Client.BirthDate.ToString("dd/MM/yyyy"));
+            sb.AppendLine("Email: " + Client.Email);
             foreach (OrderItem item in OrderItems) {
-                sb.Append(item.Product.Name);
-                sb.Append(", ");
-                sb.Append(item.Price);
-                sb.Append(", ");
-                sb.Append(item.Quantity);
-                sb.Append(", ");
-                sb.Append(item.SubTotal());                
+                sb.AppendLine(item.Product.Name);                
+                sb.AppendLine("Price: " + item.Price);                
+                sb.AppendLine("Quantity " +item.Quantity);
+                sb.AppendLine("Subtotal " + item.SubTotal());                
             }
             sb.Append("Total Price: " + Total());
             return sb.ToString();

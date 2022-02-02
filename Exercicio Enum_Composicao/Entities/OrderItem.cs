@@ -20,9 +20,10 @@ namespace Exercicio_Enum_Composicao.Entities {
 
         public override string ToString() {
             StringBuilder sb = new StringBuilder();
+            sb.Append(Product.Name);
             sb.Append(Quantity);
             sb.Append(Price);
-            sb.Append(Product.Name);
+            sb.Append(SubTotal());
             return sb.ToString();
         }
     }

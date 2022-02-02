@@ -1,0 +1,14 @@
+F:\Curso C#\Exercicio Enum_Composicao\Exercicio Enum_Composicao\bin\Debug\netcoreapp3.1\Exercicio Enum_Composicao.exe
+F:\Curso C#\Exercicio Enum_Composicao\Exercicio Enum_Composicao\bin\Debug\netcoreapp3.1\Exercicio Enum_Composicao.deps.json
+F:\Curso C#\Exercicio Enum_Composicao\Exercicio Enum_Composicao\bin\Debug\netcoreapp3.1\Exercicio Enum_Composicao.runtimeconfig.json
+F:\Curso C#\Exercicio Enum_Composicao\Exercicio Enum_Composicao\bin\Debug\netcoreapp3.1\Exercicio Enum_Composicao.runtimeconfig.dev.json
+F:\Curso C#\Exercicio Enum_Composicao\Exercicio Enum_Composicao\bin\Debug\netcoreapp3.1\Exercicio Enum_Composicao.dll
+F:\Curso C#\Exercicio Enum_Composicao\Exercicio Enum_Composicao\bin\Debug\netcoreapp3.1\Exercicio Enum_Composicao.pdb
+F:\Curso C#\Exercicio Enum_Composicao\Exercicio Enum_Composicao\obj\Debug\netcoreapp3.1\Exercicio Enum_Composicao.csproj.AssemblyReference.cache
+F:\Curso C#\Exercicio Enum_Composicao\Exercicio Enum_Composicao\obj\Debug\netcoreapp3.1\Exercicio Enum_Composicao.GeneratedMSBuildEditorConfig.editorconfig
+F:\Curso C#\Exercicio Enum_Composicao\Exercicio Enum_Composicao\obj\Debug\netcoreapp3.1\Exercicio Enum_Composicao.AssemblyInfoInputs.cache
+F:\Curso C#\Exercicio Enum_Composicao\Exercicio Enum_Composicao\obj\Debug\netcoreapp3.1\Exercicio Enum_Composicao.AssemblyInfo.cs
+F:\Curso C#\Exercicio Enum_Composicao\Exercicio Enum_Composicao\obj\Debug\netcoreapp3.1\Exercicio Enum_Composicao.csproj.CoreCompileInputs.cache
+F:\Curso C#\Exercicio Enum_Composicao\Exercicio Enum_Composicao\obj\Debug\netcoreapp3.1\Exercicio Enum_Composicao.dll
+F:\Curso C#\Exercicio Enum_Composicao\Exercicio Enum_Composicao\obj\Debug\netcoreapp3.1\Exercicio Enum_Composicao.pdb
+F:\Curso C#\Exercicio Enum_Composicao\Exercicio Enum_Composicao\obj\Debug\netcoreapp3.1\Exercicio Enum_Composicao.genruntimeconfig.cache
